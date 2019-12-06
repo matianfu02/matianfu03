@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  /* 左右布局 */
+  display: flex;
+  justify-content: space-between;
+  /* 背景颜色 */
+  background-color: #eff4fa;
+  /* 下边框 */
+  border-bottom: 1px solid #d6dfea;
+  /* 内边距 */
+  padding: 1rem 2rem;
+  /* align-items表示压力布局中的子元素的垂直对齐方式，center是居中 */
+  
+}
+
+
+
+
+
+/* 固定位置定位 */
+.footer {
+  /* 固定在最下方 */
+  position: fixed;
+  bottom: 0px;
+  /* fixed定位会丢失宽度，需要指定宽度 */
+  width: 100%;
+}
+
+ /* 中间区域是左右两块，都是整体居中 */
+ main {
+   display: flex;
+   justify-content: center;
+   margin-top: 4rem;
+ }
+
+ /* 中间区域左边模块样式 */
+ .main-left {
+   margin-right: 4rem;
+ }
+
+ /* 中间区域右边框 */
+ .main-right {
+   border: 1px solid #a0b1c4;
+  border-radius: 4px;
+ }
+
+ /* 右边第一行 */
+ .main-right01 {
+   display: flex;
+   background-color: #f9fbfe;
+   /*
+     压力布局水平对齐办法，space-around
+     表示把空白区域平均分配到子元素两边
+    */
+    justify-content: so;
+ }
+
+ /* 右边登录框大块 */
+ .main-right-login {
+   border-top: 1px solid #a0b1c4;
+   padding: 2rem;
+ }
+
+ 
